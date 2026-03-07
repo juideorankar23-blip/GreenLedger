@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# 🌿 GreenLedger
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A smart personal expense tracker built with **React Native + Expo**.
 
-## Get started
+## Features
 
-1. Install dependencies
+- 📊 Track daily expenses by category
+- 🗂 View expense history grouped by date
+- 💰 Set monthly income & category budgets
+- 📈 Track spending vs budget with progress bars
+- ✏️ Add, edit & delete expenses
+- 📤 Export expenses to CSV
+- 👤 Personalized onboarding & profile
+- 💾 Data persists locally with AsyncStorage
+- 🌐 Works on both Android & Web
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- React Native
+- Expo + Expo Router (file-based routing)
+- TypeScript
+- AsyncStorage
+- EAS Build (Android APK)
 
-   ```bash
-   npx expo start
-   ```
+## Screens
 
-In the output, you'll find options to open the app in a
+- Splash Screen
+- Onboarding (first launch only)
+- Dashboard (home)
+- Add / Edit Expense
+- Trackers (category spending)
+- Planning (budgets)
+- Settings (profile + data management)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Getting Started
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Download
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[Install Android APK](https://expo.dev/accounts/juideorankar/projects/greenledger/builds/6450212d-31c8-4d07-8a7c-8c769e1f4963)
