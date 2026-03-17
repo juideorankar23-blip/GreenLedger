@@ -4,15 +4,15 @@ A smart personal expense tracker built with **React Native + Expo**.
 
 ## Features
 
-- 📊 Track daily expenses by category
-- 🗂 View expense history grouped by date
-- 💰 Set monthly income & category budgets
-- 📈 Track spending vs budget with progress bars
-- ✏️ Add, edit & delete expenses
-- 📤 Export expenses to CSV
-- 👤 Personalized onboarding & profile
-- 💾 Data persists locally with AsyncStorage
-- 🌐 Works on both Android & Web
+- Track daily expenses by category
+- View expense history grouped by date
+- Set monthly income & category budgets
+- Track spending vs budget with progress bars
+- Add, edit & delete expenses
+- Export expenses to CSV
+- Personalized onboarding & profile
+- Data persists locally with AsyncStorage
+- Works on both Android & Web
 
 ## Tech Stack
 
@@ -22,15 +22,6 @@ A smart personal expense tracker built with **React Native + Expo**.
 - AsyncStorage
 - EAS Build (Android APK)
 
-## Screens
-
-- Splash Screen
-- Onboarding (first launch only)
-- Dashboard (home)
-- Add / Edit Expense
-- Trackers (category spending)
-- Planning (budgets)
-- Settings (profile + data management)
 
 ## Getting Started
 
